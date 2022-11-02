@@ -1,0 +1,108 @@
+.promo {
+    background: linear-gradient(180deg, #3D65FE 0%, #6B88F8 100%);
+    .container {
+        padding-top: 76px;
+        padding-bottom: 82px;
+        position: relative;
+        max-width: 1700px;
+        width: 100%;
+    }
+    &__image {
+        position: absolute;
+        right: 140px;
+        bottom: 0;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__block {
+        padding: 13px 20px;
+        width: 660px;
+        height: 85px;
+        background-color: rgba(#fff, .95);
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin-bottom: 53px;
+    }
+    &__block-text {
+        font-family: 'Gilroy Semibold', sans-serif;
+        font-size: 24px;
+        line-height: 120%;
+        text-transform: uppercase;
+        &--blue {
+            color:#3965AE;
+        }
+        &--red {
+            color: #CD4158;
+        }
+    }
+    &__content {
+        position: relative;
+        padding-left: 20px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 280px;
+            height: 182px;
+            top: 164px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: url('../img/promo/promo-content-image.png') center no-repeat;
+        }
+    }
+    &__content-title {
+        width: 791px;
+        font-family: 'Uni Neue', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 120%;
+        margin-bottom: 35px;
+    }
+    &__content-descr {
+        width: 544px;
+        font-family: 'Gilroy Semibold', sans-serif;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    &__content-button {
+        padding-top: 18px;
+        text-align: center;
+        display: block;
+        width: 310px;
+        height: 60px;
+        margin-bottom: 100px;
+    }
+    &__content-inner {
+        max-width: 1395px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__content-item {
+        padding: 20px 0;
+        text-align: center;
+        font-family: 'Gilroy Medium', sans-serif;
+        background: #3965AE;
+        border-radius: 5px 40px 40px 40px;
+        height: 65px;
+        font-size: 20px;
+        line-height: 120%;
+        color: #fff;
+        &--one {
+            width: 210px;
+        }
+        &--two {
+            width: 336px;
+        }
+        &--three {
+            width: 358px;
+        }
+        &--four {
+            width: 431px;
+        }
+    }
+}

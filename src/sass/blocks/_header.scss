@@ -1,0 +1,26 @@
+.header {
+    padding: 15px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Uni Neue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 120%;
+        color: #3D65FE;
+        &--color {
+            color: #CD4158;
+        }
+    }
+    &__button {
+        width: 310px;
+        height: 60px;
+    }
+    &__button-mobile {
+        display: none;
+    }
+}

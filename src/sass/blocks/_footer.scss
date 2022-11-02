@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 27px;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg, #3D65FE 0%, #6B88F8 100%);
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    &__policy {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    &__info {
+        text-align: center;
+    }
+}
