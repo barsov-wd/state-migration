@@ -1,0 +1,150 @@
+.questions {
+    padding: 130px 0;
+}
+
+.card {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 130px;
+    position: relative;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &__number {
+        position: absolute;
+        font-family: 'Uni Neue', sans-serif;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 90%;
+        left: 0;
+        top: 0;
+        color: rgba(205, 65, 88, 0.7);
+        opacity: 0.2;
+
+    }
+    &__title {
+        margin-bottom: 60px;
+    }
+}
+
+.card__form {
+    max-width: 830px;
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.card__form-input {
+    padding: 18px 20px;
+    width: 405px;
+    height: 60px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.card__form-input::placeholder {
+    color: #BDBDBD;
+}
+
+.card__form--label {
+    position: relative;
+    margin-bottom: 20px;
+    width: 405px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+}
+
+.card__form--label-input {
+    margin: 0;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.card__form--label-text {
+    padding: 18px 0 18px 20px;
+    background-color: #fff;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0px 2px 4px rgba(243, 243, 243, 0.8);
+    border-radius: 5px;
+    font-family: 'Uni Neue', sans-serif;
+    color: #181818;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: start;
+}
+
+.card__form--label-input:checked+.card__form--label-text {
+    background: linear-gradient(180deg, #3D65FE 0%, #6B88F8 100%);
+    border: transparent;
+    color: #FFFFFF;
+}
+
+.card__form--label-checkbox {
+    border: 1px solid #BDBDBD;
+    box-shadow: 0px 2px 4px rgba(243, 243, 243, 0.8);
+    padding: 18px 0 18px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.card__form--label-text_check {
+
+    font-family: 'Uni Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.card__form--label-check {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #3965ae;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+
+    &:hover {
+        border: 2px solid #3965AE;
+    }
+}
+
+.card__form--label-check:checked:before {
+    content: "";
+    position: absolute;
+    display: table;
+    width: 12px;
+    height: 10px;
+    background-color: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../img/check.png');
+}

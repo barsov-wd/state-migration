@@ -42,7 +42,7 @@
                     <p class="promo__content-descr">
                         Ответьте на 5 вопросов и получите Гражданство РФ за 2 дня
                     </p>
-                    <a href="#" class="button promo__content-button">Пройти опрос</a>
+                    <a href="#questions" class="button promo__content-button">Пройти опрос</a>
                     <div class="promo__content-inner">
                         <div class="promo__content-item promo__content-item--one">
                             15 лет опыта
@@ -62,8 +62,175 @@
         </section>
         <!-- ./promo -->
 
-        <section class="questions">
-        
+        <section id="questions" class="questions">
+            <div class="container">
+                <div class="card">
+                    <h3 class="title card__title">Гражданином какой страны вы являетесь?</h3>
+                    <form action="#" class="card__form">
+                        <div class="card__form-input-group">
+                            <input type="text" class="card__form-input" placeholder="Ведите вашу страну">
+                        </div>
+                    </form>
+                    <div class="card__number">
+                        1
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="title card__title">В каком регионе Вы находитесь?</h3>
+                
+                    <form class="card__form" action="#">
+                        <label for="radio" class="card__form--label">
+                            <input checked type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Москва</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Московская область</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Другой регион</p>
+                        </label>
+                    </form>
+                
+                    <div class="card__number">
+                        2
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="title card__title">Введите ваш возраст</h3>
+                    <form action="#" class="card__form">
+                        <div class="card__form-input-group">
+                            <input type="text" class="card__form-input" placeholder="Ваш возраст">
+                        </div>
+                    </form>
+                    <div class="card__number">
+                        3
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="title card__title">Сколько лет проживаете на территории РФ?</h3>    
+                    <form class=" card__form" action="#">
+                        <label for="radio" class="card__form--label">
+                            <input checked type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">до 6 месяцев</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">от 6 до 12 месяцев</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">1-3 года</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">3-5 лет</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Более 5 лет</p>
+                        </label>
+                    </form>
+            
+                    <div class="card__number">
+                        4
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3 class="title card__title">Какой вид документов вам нужен?</h3>
+                
+                    <form class="card__form" action="#">
+                        <label for="check1" class="card__form--label card__form--label-checkbox">
+                            <input id="check1" name="checkbox" checked type="checkbox" class="card__form--label-check">
+                            <p class="card__form--label-text_check">Гражданство РФ</p>
+                        </label>
+                        <label for="check2" class="card__form--label card__form--label-checkbox">
+                            <input id="check2" type="checkbox" name="checkbox" class="card__form--label-check">
+                            <p class="card__form--label-text_check">РВП</p>
+                        </label>
+                        <label for="check3" class="card__form--label card__form--label-checkbox">
+                            <input id="check3" type="checkbox" name="checkbox" class="card__form--label-check">
+                            <p class="card__form--label-text_check">ВНЖ</p>
+                        </label>
+                        <label for="check4" class="card__form--label card__form--label-checkbox">
+                            <input id="check4" type="checkbox" name="checkbox" class="card__form--label-check">
+                            <p class="card__form--label-text_check">Патент</p>
+                        </label>
+                        <label for="check5" class="card__form--label card__form--label-checkbox">
+                            <input id="check5" type="checkbox" name="checkbox" class="card__form--label-check">
+                            <p class="card__form--label-text_check">Другой вопрос по миграции</p>
+                        </label>
+                    </form>
+                
+                    <div class="card__number">
+                        5
+                    </div>
+                </div>
+                
+                
+                <div class="card">
+                    <h3 class="title card__title">Есть ли у вас близкие родственники, являющиеся гражданами РФ?</h3>
+                
+                    <form class="card__form" action="#">
+                        <label for="radio" class="card__form--label">
+                            <input checked type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Да, муж/жена</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Да, родители</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input checked type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Да, другие родственники</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Нет</p>
+                        </label>
+                    </form>
+                
+                    <div class="card__number">
+                        6
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3 class="title card__title">
+                        Время работы с 9 до 20:00 по МСК. <br>
+                        Если не удастся с Вами связаться в какой мессенджер написать?
+                    </h3>
+                
+                    <form class="card__form" action="#">
+                        <label for="radio" class="card__form--label">
+                            <input checked type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Whats App</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Viber</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input checked type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">Telegram</p>
+                        </label>
+                        <label for="radio" class="card__form--label">
+                            <input type="radio" name="radio" class="card__form--label-input">
+                            <p class="card__form--label-text">СМС</p>
+                        </label>
+                    </form>
+                
+                    <div class="card__number">
+                        7
+                    </div>
+                </div>
+
+            </div>
         </section>
         <!-- ./questions -->
 

@@ -38,6 +38,12 @@
             right: 30px;
         }
     }
+    .questions {
+        padding: 120px 0;
+    }
+    .card {
+        margin-bottom: 120px;
+    }
     .form-block {
         max-width: 1340px;
         padding: 80px 0 80px 100px;
@@ -125,6 +131,16 @@
             }
         }
     }
+    .questions {
+        padding: 110px;
+    }
+    .card {
+        margin-bottom: 110px;
+        &__title {
+            width: 80%;
+            margin: 0 auto 60px;
+        }
+    }
     .form-block {
         max-width: 1140px;
         padding: 75px 0 75px 75px;
@@ -180,6 +196,15 @@
         }
         &__content-button {
             margin-bottom: 90px;
+        }
+    }
+    .questions {
+        padding: 100px 0;
+    }
+    .card {
+        margin-bottom: 100px;
+        &__title {
+            margin: 0 auto 50px;
         }
     }
     .form-block {
@@ -239,6 +264,19 @@
         }
         &__block-text {
             font-size: 20px;
+        }
+    }
+    .questions {
+        padding: 90px 0;
+    }
+    .card {
+        margin-bottom: 90px;
+        &__title {
+            font-size: 30px;
+        }
+        &__number {
+            font-size: 70px;
+            line-height: 70%;
         }
     }
     .form-block {
@@ -326,6 +364,26 @@
             gap: 20px;
         }
     }
+    .questions {
+        padding: 80px 0;
+    }
+    .card {
+        margin-bottom: 80px;
+        &__title {
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        &__form {
+            row-gap: 15px;
+        }
+        &__form--label {
+            margin-bottom: 0;
+        }
+        &__number {
+            font-size: 65px;
+            line-height: 65%;
+        }
+    }
     .form-block {
         padding: 60px 0 60px 60px;
         max-width: 750px;
@@ -385,6 +443,20 @@
             font-size: 20px;
             line-height: 24px;
             margin: 0 auto 15px;
+        }
+    }
+    .questions {
+        padding: 60px 0;
+    }
+    .card {
+        margin-bottom: 60px;
+        &__title {
+            font-size: 24px;
+            margin-bottom: 35px;
+        }
+        &__number {
+            font-size: 60px;
+            line-height: 60%;
         }
     }
     .form-block {
@@ -519,6 +591,37 @@
             &--four {
                 width: 303px;
             }
+        }
+    }
+    .questions {
+        padding-top: 123px;
+        padding-bottom: 40px;
+    }
+    .card {
+        margin: 0 auto 100px;
+        &__title {
+            width: 100%;
+            margin: 0 auto 25px;
+        }
+        &__number {
+            top: -60px;
+        }
+        &__form-input {
+            font-size: 16px;
+            line-height: 19px;
+            width: 290px;
+            height: 55px;
+        }
+        &__form--label {
+            width: 290px;
+            height: 55px;
+        }
+        &__form--label-checkbox {
+            padding: 18px 0 18px 10px;
+        }
+        &__form--label-text,
+        &__form--label-text_check {
+            font-size: 16px;
         }
     }
     .form-block {
